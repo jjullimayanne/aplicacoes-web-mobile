@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.name p {
+  font-size: 30px;
+  padding: 200px;
+}
+.name-description {
+  padding-top: 20%;
+  color: #848484;
+}
+
+.image-home {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+#btn-description {
+  margin-left: 8%;
+  margin-top: -45%;
+  padding: 10px;
+  width: 300px;
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: aqua; */
+  padding-bottom: 8%;
+}
+.linha-horizontal {
+  margin-left: 4%;
+  margin-top: -8%;
+  width: 280px;
+  height: 0;
+  border: 0.1px solid #000;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  padding-top: 4%;
+  /* background-color: blueviolet; */
+}
+.text-about-me {
+    width: 400px;
+    
+}
+.img-about {
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+.container-competencias {
+  background-color: #d5963d;
+  height: 200px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 30px;
+}
+.competencias {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-formacao {
+  display: flex;
+  color: white;
+  font-size: 10;
+  margin-left: 4%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.border-img {
+  border-radius: 50%;
+  max-width: 60px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+}
+.title-formacao {
+  margin-left: 47%;
+}
+.linha-vertical {
+  margin-left: 15%;
+  height: 130px;
+  border-right: 1.5px solid white;
+}
+.container-card {
+  background-color: rgba(165, 65, 15, 0.2);
+  height: 600px;
+}
+
+.card-project {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text-title-aligment {
+  margin-left: 5%;
+}
+
+.text-projects-big {
+  margin-top: 2%;
+  color: #a5410f;
+  font-size: 40px;
+  margin: 0;
+}
+
+.text-projects-minor {
+  font-weight: 700;
+  color: #a5410f;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.spacer {
+  padding-top: 15%;
+  background-color: red;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type-writer {
+  overflow: hidden;
+  border-right: 0.15em solid yellow;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #d5963d;
+  }
+}

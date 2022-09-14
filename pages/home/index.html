@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet">
+    <!-- usando font do google roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <!-- iniciando com bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>teste</title>
+</head>
+
+<body>
+    <header-component></header-component>
+    <main>
+
+        <div class="container-description">
+            <div class="description">
+                <div class="name">
+                    <h1 class="type-writer"> Julli Mayanne</h1>
+                    <h5 class="name-description">Mobile Software Engineer</h5>
+                </div>
+                <img class="image-home" src="/public/images/icon.svg" alt="">
+            </div>
+            <a href="#" class="btn btn-primary" id="btn-description"
+                style="background-color: #A5410F; border:none">GitHub</a>
+            <div class="linha-horizontal"></div>
+        </div>
+
+        <div class="about" id="sobre-mim">
+            <img class="img-about"
+                src="/public/images/second-image.svg"
+                alt="">
+            <div class="text-about-me"> iwhen an unknown printspecimen bo five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </div>
+        <div class="container-competencias">
+            <h4 class="title-formacao">Formacao</h4>
+            <div class="competencias">
+                <div class="text-formacao">
+                    <p>Front End Developer - Bootcamp Laboratoria
+                    <p>
+                        <img class="border-img"
+                            src="data:image/jpeg;base64,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"
+                            alt="">
+                </div>
+                <div class="linha-vertical"></div>
+                <div class="text-formacao">
+                    <p>Engenharia de Software - Uninter
+                    <p>
+                        <img class="border-img"
+                            src="data:image/png;base64,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"
+                            alt="">
+                </div>
+                <div class="linha-vertical"></div>
+                <div class="text-formacao">
+                    <p>Licenciatura em Computação - Universidade de Brasília
+                    <p>
+                        <img class="border-img"
+                            src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Webysther_20160322_-_Logo_UnB.svg"
+                            alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-card">
+            <div class="text-title-aligment">
+                <p class="text-projects-minor">Projetos</p>
+                <p class="text-projects-big">Recentes</p>
+            </div>
+            <div class="card-project">
+                <div class="card"
+                    style="width: 14rem; height: 17rem; background-color: rgba(253, 253, 253, 0.3); border:none">
+                    <img style='width:14rem; height: 10rem;' class="card-img-top"
+                        src="/public/images/avanade-talent.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Face Scan</h5>
+                        <p class="card-text">Aplicação de reconhecimento facial.</p>
+                        <a href="https://github.com/jjullimayanne/sap006-tf-avanade" class="btn btn-primary"
+                            style="background-color: #A5410F; border:none">Visitar Agora</a>
+                    </div>
+                </div>
+                <div class="card"
+                    style="width: 14rem; height: 17rem; background-color: rgba(253, 253, 253, 0.3); border:none">
+                    <img class="card-img-top" style='width:14rem; height: 10rem;'
+                        src="https://github.com/jjullimayanne/SAP006-burger-queen-api-client/raw/main/src/img/saloon.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger Queen</h5>
+                        <p class="card-text">Restaurante inspirado em The Krusty Krab.</p>
+                        <a href="https://github.com/jjullimayanne/SAP006-burger-queen-api-client"
+                            class="btn btn-primary" style="background-color: #A5410F; border:none">Visitar Agora</a>
+                    </div>
+                </div>
+                <div class="card"
+                    style="width: 14rem; height: 17rem; background-color: rgba(253, 253, 253, 0.3); border:none">
+                    <img class="card-img-top" style='width:14rem; height: 10rem;' src="/public/images/falcao.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Loja de Carros</h5>
+                        <p class="card-text">Loja desenvolvida em Flutter.</p>
+                        <a href="https://github.com/lucasfalcaoo/mentoria-julli" class="btn btn-primary"
+                            style="background-color: #A5410F; border:none">Visitar Agora</a>
+                    </div>
+                </div>
+                <div class="card"
+                    style="width: 14rem; height: 17rem; background-color: rgba(253, 253, 253, 0.3); border:none">
+                    <img class="card-img-top" style='width:14rem; height: 10rem;'
+                        src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #A5410F; border:none">Visitar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="spacer">
+
+        </div>
+    </main>
+
+    <footer-component></footer-component>
+    <script src="/modules/header/header.js" type="text/javascript" defer></script>
+    <script src="/modules/footer/footer.js" type="text/javascript" defer></script>
+    <script src="../home/index.js" type="text/javascript" defer></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
