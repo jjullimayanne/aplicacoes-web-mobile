@@ -1,6 +1,8 @@
 # Site criado para o trabalho da aula de Linguagem de programação
 
 
+![Captura de Tela 2022-09-17 às 19 25 21](https://user-images.githubusercontent.com/79465402/190878263-ecf503d1-46c8-4fda-8c79-2b417ed615d3.png)
+
 
 Para desenvolver esta atividade será necessário:
 - HTML
