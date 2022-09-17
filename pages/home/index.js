@@ -1,7 +1,2 @@
-const template = document.createElement('template');
+/* eslint-disable no-multiple-empty-lines */
 
-template.innerHTML = `
-
-`;
-
-document.body.appendChild(template.content);

@@ -12,6 +12,7 @@ class Header extends HTMLElement {
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            margin-right: 5%
           }
 
           nav li {
@@ -40,8 +41,8 @@ class Header extends HTMLElement {
           <nav>
             <ul>
               <li><a href="#sobre-mim">Sobre mim</a></li>
-              <li><a href="work.html">Formação</a></li>
-              <li><a href="contact.html">Contato</a></li>
+              <li><a href="#competencias">Formação</a></li>
+              <li><a href="#contato">Contato</a></li>
             </ul>
           </nav>
         </header>
